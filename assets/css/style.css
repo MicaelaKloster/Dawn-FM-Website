@@ -302,7 +302,9 @@ img {
 }
 
 .button:hover{
-    background-color: var(--first-color-alt);
+    background-color: transparent;
+    color: var(--first-color);
+    border: 2px solid var(--first-color);
 }
 
 .button i{
